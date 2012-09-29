@@ -25,5 +25,4 @@ if($wm%5==0){
 
 echo "</br>";
 echo $total;
-
 ?> 
