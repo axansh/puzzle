@@ -3,10 +3,10 @@
 $number_of_player = 5;
 
 $count =0;
-$result = test($number_of_player,$count);
+$result = best_selection($number_of_player,$count);
 
 
-function test($number,$count){
+function best_selection($number,$count){
 
 	if($number <= 3 ){	
 		$count++;
