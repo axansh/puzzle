@@ -1,12 +1,12 @@
 <?php
 
-$number_of_player = 5;
+$number_of_player = 12;
 
 $count =0;
-$result = best_selection($number_of_player,$count);
+$result = test($number_of_player,$count);
 
 
-function best_selection($number,$count){
+function test($number,$count){
 
 	if($number <= 3 ){	
 		$count++;
@@ -20,5 +20,6 @@ function best_selection($number,$count){
 	echo pow(2,$abc);exit; 
 	
 }
+
 
 ?>
